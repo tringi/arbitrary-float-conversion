@@ -1,1 +1,1 @@
-# Arbitrary-sized floating-point numbers conversion routine
+# Arbitrary-sized floating-point conversion routine
