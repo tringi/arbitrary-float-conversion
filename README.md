@@ -17,7 +17,9 @@ NV TensorFloat | 19 | 10 | 8 | - | NVidia's TensorFloat
 AMD fp24 | 24 | 16 | 7 | - | 
 PXR24 | 24 | 15 | 8 | - | Pixar
 [IEEE 754 single](https://en.wikipedia.org/wiki/Single-precision_floating-point_format) | 32 | 23 | 8 | float |
-[IEEE 754 double](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) | 64 | 52 | 11 | double |
+[IEEE 754 40b](https://en.wikipedia.org/wiki/Extended_precision) | 40 | 31 | 8 |  |
+[Turbo Pascal Real](https://moddingwiki.shikadi.net/wiki/Turbo_Pascal_Real) | 48 | 39 | 8 | real |
+[IEEE 754 double](https://en.wikipedia.org/wiki/Double-precision_floating-point_format) | 64 | 52 | 11 | double | Mantissa and Exponent position swapped!
 [IEEE 754 extended](https://en.wikipedia.org/wiki/Extended_precision) | 80 | 64 | 15 | long double |
 
 *When calling this library, template parameters refer to **Width** and **Exponent** fields in this table.*
